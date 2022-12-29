@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
 
   # Uncomment below to schedule your job
-  # schedule:
-  #   - cron: "0 7 * * *"
+  schedule:
+   - cron: "0 7 * * *"
 
 env:
   TZ: Asia/Shanghai
